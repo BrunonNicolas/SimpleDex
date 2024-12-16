@@ -1,0 +1,36 @@
+[
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getPrice",
+      "outputs": [{ "name": "", "type": "uint256" }],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        { "name": "_amountA", "type": "uint256" },
+        { "name": "_amountB", "type": "uint256" }
+      ],
+      "name": "addLiquidity",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        { "name": "_amountA", "type": "uint256" },
+        { "name": "_amountB", "type": "uint256" }
+      ],
+      "name": "swapTokens",
+      "outputs": [{ "name": "", "type": "bool" }],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+  
